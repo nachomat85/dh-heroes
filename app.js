@@ -2,8 +2,6 @@ const express = require("express")
 const app = express()
 const path = require('path')
 
-
-console.log(app)
 app.use(express.static('public'));
 
 app.listen(3030,() => {
